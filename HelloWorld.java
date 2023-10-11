@@ -20,4 +20,37 @@ public class HelloWorld {
        System.out.println("la racine carree de x est : " +Math.sqrt(x));
    }
 }
+// Online Java Compiler
+// Use this editor to write, compile and run your Java code online
+
+public class EXO1 {
+//METHODE MAIN
+    public static void main (String [] args){
+   EXO1.maboucleSimple();
+    EXO1.maboucleavecTableau();
+    
+    }
+    //METHODE 2
+    public static void maboucleSimple(){
+        
+        for (int i = 0; i < 10); i++){
+                if (i == 5){
+                    continue;
+                //TODO
+                } 
+                System.out.println("LA BOUCLE" + i);
+        }
+        
+    } //FIN DE LA METHODE 2
+    
+    public static void maboucleavecTableau(){
+        int [] numbers={1,2,3,4,5);
+        //AFFICHAGE DU CONTENU DU TABLEAU
+        for (int number : numbers ) {
+            System.out.println("Les elements du tableau sont :" +number);
+            
+        }
+    }
+        
+} //FIN DE LA CLASSE
 
